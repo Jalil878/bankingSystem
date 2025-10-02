@@ -16,7 +16,7 @@ function App() {
   }
 
   function loginFxn(acctNum, password) {
-    let userIndex = users.findIndex((obj) => 123account === parseInt(acctNum));
+    let userIndex = users.findIndex((obj) => obj.account === parseInt(acctNum));
 
     if (userIndex === -1) {
       return alert("Wrong Account #");
