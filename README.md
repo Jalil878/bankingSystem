@@ -1,10 +1,73 @@
-# Getting Started with Create React App
+# Banking System
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple React-based banking system application that allows users to login, check balances, and perform money transfers between accounts.
+
+## Features
+
+- User Authentication
+- Balance Checking
+- Money Transfer between accounts
+- Secure Password Protection
+- Real-time Balance Updates
+
+## Demo Users
+
+You can test the application with these demo accounts:
+
+```
+Account #: 1234
+Password: userpass
+Name: Jalil
+
+Account #: 4321
+Password: user123
+Name: Ryan
+
+Account #: 3333
+Password: pass123
+Name: abubacar
+```
+
+## Getting Started
+
+1. Clone the repository:
+```bash
+git clone https://github.com/Jalil878/bankingSystem.git
+```
+
+2. Install dependencies:
+```bash
+cd bankingSystem
+npm install
+```
+
+3. Run the application:
+```bash
+npm start
+```
+
+The application will start running at [http://localhost:3000](http://localhost:3000)
+
+## Technologies Used
+
+- React.js
+- JavaScript
+- HTML/CSS
+- State Management with React Hooks (useState)
+
+## Project Structure
+
+```
+src/
+  ├── components/
+  │   ├── Home.jsx       # Home component for logged-in users
+  │   ├── Login.jsx      # Login component
+  │   └── windows/       # Additional window components
+  ├── App.jsx           # Main application component
+  └── index.js         # Application entry point
+```
 
 ## Available Scripts
-
-In the project directory, you can run:
 
 ### `npm start`
 
